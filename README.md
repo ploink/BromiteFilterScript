@@ -10,9 +10,8 @@ curl -OL 'https://raw.githubusercontent.com/ploink/BromiteFilterScript/master/ma
 curl -OL 'https://raw.githubusercontent.com/ploink/BromiteFilterScript/master/filters.conf.dist'
 chmod +x makefilters.sh
 ```
-Or checkout from git:
-```git clone "https://github.com/ploink/BromiteFilterScript.git"
-```
+Or checkout from git.
+
 * When run for the first time, it creates filters.conf from the dist file
 * Edit filters.conf and comment out any filter lists and/or add other lists as desired.
 * Run makefilters.sh. It will download the ruleset_converter if not already present.
