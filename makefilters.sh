@@ -56,7 +56,7 @@ FILES="${FILES:1}"
 if [[ "$DOWNLOADED" == "true" || ! -f filters.dat ]]; then 
     echo Creating filters.dat 
     ./ruleset_converter --input_format=filter-list --output_format=unindexed-ruleset \
-	--input_files=${FILES} --output_file=filters.dat 
+	--input_files=${FILES} --output_file=filters.dat 2> /dev/null
     exit 0
 fi
 
