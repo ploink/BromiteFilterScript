@@ -1,0 +1,56 @@
+# List of filter URL's
+# Format: <FILENAME_WITHOUT_EXTENSION> <URL>
+
+# Filters from ublock origin
+# https://github.com/uBlockOrigin/uAssets
+ublock-filters		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
+ublock-badware		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
+ublock-privacy		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
+ublock-abuse		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
+ublock-lan			https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/lan-block.txt
+ublock-unbreak		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt
+
+# https://kb.adguard.com/en/general/adguard-ad-filters
+adguard-base		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_English/filter.txt
+adguard-tracking 	https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+adguard-url-track	https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
+adguard-social 		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
+#adguard-annoyances	https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+#adguard-unblock	https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt
+adguard-Dutch 		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_8_Dutch/filter.txt
+#adguard-German		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_6_German/filter.txt
+#adguard-Chinese	https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
+adguard-mobile-ads	https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt
+
+# https://easylist.to/
+easylist 			https://easylist.to/easylist/easylist.txt
+easyprivacy 		https://easylist.to/easylist/easyprivacy.txt
+easylist-cookie		https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+fanboy-social       https://easylist.to/easylist/fanboy-social.txt
+#fanboy-annoyance	https://secure.fanboy.co.nz/fanboy-annoyance.txt
+
+# https://easylist.to/pages/other-supplementary-filter-lists-and-easylist-variants.html
+easylist-Dutch		https://easylist-downloads.adblockplus.org/easylistdutch.txt
+
+# https://adblockplus.org/
+#abp-antiadblock		https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+
+# Curben filters
+# https://gitlab.com/curben/urlhaus-filter
+curben-urlhaus		https://curben.gitlab.io/malware-filter/urlhaus-filter.txt
+# https://gitlab.com/curben/phishing-filter
+curben-phishing		https://curben.gitlab.io/malware-filter/phishing-filter.txt
+# https://gitlab.com/curben/pup-filter
+curben-pup			https://curben.gitlab.io/malware-filter/pup-filter.txt
+
+# https://www.spam404.com/
+spam404			https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt
+
+# https://github.com/hoshsadiq/adblock-nocoin-list
+nocoin			https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
+
+# https://oisd.nl/downloadsXtra
+oisd-basic			https://abp.oisd.nl/basic/
+#oisd-full 			https://abp.oisd.nl/
+#oisd-nsfw			https://abp.oisd.nl/nsfw/
+#oisd-extra			https://abp.oisd.nl/extra/
